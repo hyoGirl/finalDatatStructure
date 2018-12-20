@@ -1,3 +1,4 @@
+
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -36,6 +37,10 @@ nbdist/
 target/
 logs/
 
+# Compiled class file
+*.class
+
+
 # Log file
 *.log
 
@@ -48,6 +53,7 @@ logs/
 # Package Files #
 *.jar
 *.war
+
 *.ear
 *.zip
 *.tar.gz
@@ -56,6 +62,7 @@ logs/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+
 *velocity.log*
 
 # Eclipse #
@@ -63,3 +70,4 @@ hs_err_pid*
 .project
 .settings/
 .springBeans
+
